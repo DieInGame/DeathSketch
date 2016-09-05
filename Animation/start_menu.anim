@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "start_menu",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "btn_group/start": {
+        "props": {
+          "position": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 2
+            }
+          ]
+        }
+      }
+    },
+    "comps": {
+      "UIController": {}
+    }
+  },
+  "events": [
+    {
+      "frame": 0.3333333333333333,
+      "func": "enableBtns",
+      "params": []
+    },
+    {
+      "frame": 0.3333333333333333,
+      "func": "showParticles",
+      "params": []
+    }
+  ]
+}
